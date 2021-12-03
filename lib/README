@@ -1,0 +1,9 @@
+This program will display, and perform manipulations on, an image provided on the command line.
+
+To compile the program, type 'make' and then 'make paint'. This will create an executable 'img_paint' file.
+
+To run the program type './img_paint -image <image>' where <image> is the path to an image. In this case, "./img_paint -image inputImage.jpg" will load up the image of me partially hidden in foliage. 
+
+When the program is run, the image will be displayed. Additionally, the terminal will display which keboard buttuns will cause which manipulations to occur. When a key that corresponds to a manipulation is pressed, a new image with the specified manipulations applied will be shown in place of the old image. Pressing "T" with the image selected will process the image with real space coherent estimation. 
+
+As mentioned above, I have provided the input image as, "inputImage.jpg" as well as the resulting image as, "imageAfterEstimation.exr". 
